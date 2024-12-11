@@ -276,7 +276,6 @@ const confirmOrder = (orderId, statusOr, statusDelivery) => {
           message: "The order is not defined",
         });
       }
-      Email;
       resolve({
         status: "OK",
         message: "SUCESSS",

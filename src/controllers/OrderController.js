@@ -154,6 +154,7 @@ const deleteManyOrder = async (req, res) => {
 
 const confirmOrder = async (req, res) => {
   try {
+    console.log("duydeptria", res);
     const orderId = req.params.id;
     const statusOr = req.body.statusOrder;
     const statusDelivery = req.body.statusDelivered;
